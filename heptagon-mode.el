@@ -3,7 +3,7 @@
 (defvar heptagon-font-lock-keywords)
 (setq
  heptagon-font-lock-keywords
- '(("(\\*\\(?:[^*]\\|\\*[^/]\\)*\\*+)" . font-lock-comment-face)
+ '(("(\\*\\(?:[^*]\\|\\*[^)]\\)*\\*+)" . font-lock-comment-face)
    ("\\<\\(int\\|float\\|bool\\)\\>" . font-lock-type-face)
    ("->" . font-lock-keyword-face)
    "\\<type\\>" "\\<const\\>" "\\<fun\\>" "\\<node\\>" "\\<returns\\>"
